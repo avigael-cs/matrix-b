@@ -1,3 +1,5 @@
+נתקלתי במספר בעיות בפונקציה הקלט\פלט ונעזרתי במורה פרטי בשלב זה.
+
 #include <iostream>
 #include <vector>
 #include <sstream>
@@ -343,6 +345,7 @@ namespace zich
         return result;
     }
 
+
     ostream& operator<<(ostream& out, const Matrix& other)
     {
         for(size_t i = 0; i < other.row; i++){
@@ -411,9 +414,6 @@ namespace zich
         }
 
         other = Matrix(matrix);
-
-
-
 
         return in;
     }
